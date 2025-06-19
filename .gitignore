@@ -1,0 +1,10 @@
+# Venv
+servidor_flask/venv/
+
+# Cache
+servidor_flask/__pycache__/
+
+# Node
+cliente_nodejs/node_modules/
+cliente_nodejs/package.json
+cliente_nodejs/package-lock.json
