@@ -1,12 +1,10 @@
-````markdown
+
 # Projeto: Comunicação Assíncrona entre NodeJS e Flask
 
 ## 📄 Sobre o Projeto
 
 Este projeto demonstra a comunicação entre uma aplicação **NodeJS (cliente)** e uma aplicação **Flask/Python (servidor)** para executar uma tarefa de longa duração.  
 O cliente solicita a execução de um script de web scraping, e o servidor o processa em segundo plano, gerando um arquivo `.csv` como resultado, sem bloquear a aplicação cliente.
-
----
 
 ## 🏗️ Arquitetura
 
@@ -33,7 +31,7 @@ A comunicação é feita através de uma API REST e segue um padrão de **tarefa
         | (Quando finalizado)
         |
         | <------------------------------------------ {status: 'concluido', resultado: {url_download}}
-````
+```
 
 ---
 
